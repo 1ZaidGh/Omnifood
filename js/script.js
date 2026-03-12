@@ -1,4 +1,5 @@
 console.log("Hello World!");
+console.log("test");
 
 ///////////////////////////////////////////////////////////
 // Set current year
@@ -31,7 +32,7 @@ const obs = new IntersectionObserver(
     root: null,
     threshold: 0,
     rootMargin: "-80px",
-  }
+  },
 );
 obs.observe(sectionHeroEl);
 
